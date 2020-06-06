@@ -40,4 +40,27 @@ initailize the dataset use this function.If your image size is different from im
 self.target=Dataset(image_path='./OpenBayes',label_path='./Openbayes_label',need_resize=1)
 ```
 initial your dataset with right path in **__init__** function in **model.py**。
- 
+
+#### Train
+start training
+```
+python model.py
+```
+
+### MixMatch
+#### DataSet setting
+initailize the labeled and unlabeled dataset use this function.If your image size is different from image shape in **config.py**, set parameter **need_resize=1**。
+```
+    ldataSet=DataSet(image_path='./unet2_image',label_path='./unet2_label')
+    udataSet=TestSet(image_path='./OpenBayes',label_path='./Openbayes_label',need_resize=1)
+```
+#### Train
+start training
+```
+python cycle_mixmatch.py
+```
+#### evalation
+start evalution
+```
+python evalution.py
+```
