@@ -1,0 +1,14 @@
+Sample_num=1709
+img_width=240
+img_height=240
+img_shape=(240,240,1)
+batch_size=16
+train_num=7416
+label_train_num=200
+unlabel_train_num=7216
+epochs=100
+test_num=412
+nclass=2
+patch_size=30
+filp_num=2
+cycle_num=500
