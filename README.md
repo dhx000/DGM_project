@@ -39,4 +39,5 @@ initailize the dataset use this function.If your image size is different from im
 ```
 self.target=Dataset(image_path='./OpenBayes',label_path='./Openbayes_label',need_resize=1)
 ```
+initial your dataset with right path in **__init__** function in **model.py**。
  
