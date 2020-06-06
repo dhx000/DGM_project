@@ -64,3 +64,5 @@ start evalution
 ```
 python evalution.py
 ```
+## Reference
+ - [1]. MixMatch: A Holistic Approach to Semi-Supervised Learning.([arxiv](https://arxiv.org/abs/1905.02249v1))
