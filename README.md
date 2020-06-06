@@ -66,3 +66,5 @@ python evalution.py
 ```
 ## Reference
  - [1]. MixMatch: A Holistic Approach to Semi-Supervised Learning.([arxiv](https://arxiv.org/abs/1905.02249v1))
+ - [2]. StarGAN: Unified Generative Adversarial Networks
+for Multi-Domain Image-to-Image Translation ([full paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Choi_StarGAN_Unified_Generative_CVPR_2018_paper.pdf))
