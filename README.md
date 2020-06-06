@@ -33,6 +33,10 @@ I implement code based on Tensorflow and Keras,here is my environment setting:
 
 
 ### StarGAN
-I 
-
+I implement my code based on this [CycleGAN](https://github.com/eriklindernoren/Keras-GAN) code.I use LSGAN and PatchGAN in Discriminator.
+#### DataSet setting
+initailize the dataset use this function.If your image size is different from image shape in **config.py**, set parameter **need_resize=1**。
+```
+self.target=Dataset(image_path='./OpenBayes',label_path='./Openbayes_label',need_resize=1)
+```
  
