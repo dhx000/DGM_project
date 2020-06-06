@@ -13,8 +13,26 @@ I transfered two Source Domain images to Target Domain.Here are two samples.
 ![stargan](https://github.com/dhx000/DGM_project/blob/master/stargan.png)
 
 ### Mixmatch 
-I compare model performance which contains without DA,DA and DA+mixmatch.The results are shown in the table below.
+I compare model performance which contains without DA,DA and DA+mixmatch.The results are shown in the table below.The results show that we get a better performance.
+
 ![table](https://github.com/dhx000/DGM_project/blob/master/table.png)
+
 Here are two segmentation samples
+
 ![seg](https://github.com/dhx000/DGM_project/blob/master/seg.png)
+
+## RUN
+
+### environment
+I implement code based on Tensorflow and Keras,here is my environment setting:
+ - Python 3.7
+ - Tensorflow 1.14.0
+ - Keras 2.3.1
+ - numpy 1.17.2
+ - opencv 4.1.1.26
+
+
+### StarGAN
+I 
+
  
