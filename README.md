@@ -8,6 +8,13 @@ A improvement for Multi-source Domain Adaptation in Semantic Segmentation based 
  - Target Domain DataSet is collect from OpenBayes,which has 500 images.
 ## Result
 ### StarGAN
-I transfered two Source Domain images to Target Domain.Here are tow samples.
+I transfered two Source Domain images to Target Domain.Here are two samples.
+
 ![](https://github.com/dhx000/DGM_project/blob/master/stargan.png)
+
+### Mixmatch 
+I compare model performance which contains without DA,DA and DA+mixmatch.The results are shown in the table below.
+![](https://github.com/dhx000/DGM_project/blob/master/table.png)
+Here are two segmentation samples
+![](https://github.com/dhx000/DGM_project/blob/master/seg.png)
  
