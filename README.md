@@ -9,5 +9,5 @@ A improvement for Multi-source Domain Adaptation in Semantic Segmentation based 
 ## Result
 ### StarGAN
 I transfered two Source Domain images to Target Domain.Here are tow samples.
-![](stargan.png)
+![](https://github.com/dhx000/DGM_project/blob/master/stargan.png)
  
